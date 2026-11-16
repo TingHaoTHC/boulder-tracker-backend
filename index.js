@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
+  connectionString: process.env.postgresql://boulder_tracker_db_user:XNeMbIg7ddX5veDHrRRxCCfowJdRouHb@dpg-dbtgk3h5efls73cku890-a/boulder_tracker_db,
   ssl: { rejectUnauthorized: false }
 });
 
